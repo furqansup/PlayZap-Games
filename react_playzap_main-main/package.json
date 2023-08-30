@@ -1,0 +1,25 @@
+{
+    "name": "react_playzap_main",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 2231",
+        "build": "next build",
+        "start": "next start -p 2231",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@chakra-ui/next-js": "^2.1.4",
+        "@chakra-ui/react": "^2.7.1",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "axios": "^1.4.0",
+        "firebase": "^9.23.0",
+        "framer-motion": "^10.12.18",
+        "next": "^13.4.7",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-icons": "^4.10.1",
+        "react-pro-sidebar": "^1.1.0-alpha.1"
+    }
+}

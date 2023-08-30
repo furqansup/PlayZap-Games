@@ -1,0 +1,30 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    GENERATE_SOURCEMAP: false,
+    API_KEY: process.env.REACT_APP_API_KEY,
+    DATABASE_URL: process.env.REACT_APP_DATABASE_URL,
+    PROJECT_ID: process.env.REACT_APP_PROJECT_ID,
+    STORAGE_BUCKET: process.env.REACT_APP_STORAGE_BUCKET,
+    MESSAGING_SENDER_ID: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    APP_ID: process.env.REACT_APP_APP_ID,
+    MEASUREMENT_ID: process.env.REACT_APP_MEASUREMENT_ID,
+    PLAYZAP_LOGIN: process.env.REACT_APP_PLAYZAP_LOGIN,
+    WALLET_BALANCE_KEY: process.env.REACT_APP_WALLET_BALANCE_KEY,
+    VIRTUALS_DATA_API: process.env.REACT_APP_VIRTUALS_DATA_API,
+    USER_DATA_API: process.env.REACT_APP_USER_DATA_API,
+    WALLET_BALANCE_API_STAGING:
+      process.env.REACT_APP_WALLET_BALANCE_API_STAGING,
+    WALLET_BALANCE_API: process.env.REACT_APP_WALLET_BALANCE_API,
+    BASE_URL: process.env.REACT_APP_BASE_URL,
+    BASE_URL_STAGING: process.env.REACT_APP_BASE_URL_STAGING,
+    EXCHANGE_RATE_API: process.env.REACT_APP_EXCHANGE_RATE_API,
+    DEV_KEY: process.env.REACT_APP_DEV_KEY,
+    ALT_BASE_URL: process.env.REACT_APP_ALT_BASE_URL,
+    DISCORD_KEY: process.env.REACT_APP_DISCORD_KEY,
+    SWAP_LIST_KEY: process.env.REACT_APP_SWAP_LIST_KEY,
+  },
+};
+
+module.exports = nextConfig;
